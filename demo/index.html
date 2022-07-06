@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <title>Frontend Mentor | Four card feature section</title>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+      body {
+        display: flex;
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        background: hsl(0, 0%, 98%);
+        color: hsl(234, 12%, 34%);
+        justify-content: center;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="demo"></div>
+
+    <script type="module">
+      import { html, render } from 'lit';
+      import '../card-app.js';
+
+      render(
+        html` <card-component> some light-dom </card-component> `,
+        document.querySelector('#demo')
+      );
+    </script>
+  </body>
+</html>
