@@ -10,6 +10,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
+  - [Solution](#solution)
+  - [How to start](#how-to-start)
 
 ## Overview
 
@@ -36,3 +38,19 @@ This challenge helped me understand Lit better. I also had the opportunity to or
 
 - [The BEM Naming Convention](https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/)
 - [Flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+### Solution
+
+Desktop:
+
+![Desktop solution](./assets/screenshots/desktop.png)
+
+Mobile:
+
+![Mobile solution](./assets/screenshots/phone.png)
+
+### How to start
+
+Run the following commands:
+npm install
+npm run
