@@ -12,9 +12,11 @@ export const cardComponentStyle = css`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 10px 0 10px 0;
   }
 
   .presentation-intro {
+    margin: 10px 0 10px 0;
     text-align: center;
     width: 60%;
   }
@@ -46,14 +48,14 @@ export const cardComponentStyle = css`
   }
 
   .cards-list {
-    margin-top: 30px;
+    margin: 30px 0 30px 0;
     display: flex;
     align-items: center;
   }
 
   .card {
     border-radius: 5px;
-    box-shadow: 7px 7px 7px hsl(229, 6%, 66%);
+    box-shadow: -1px 10px 15px -3px rgba(0, 0, 0, 0.1);
     width: 270px;
     height: 200px;
     margin: 10px;
@@ -110,7 +112,7 @@ export const cardComponentStyle = css`
       flex-direction: column;
     }
     .card {
-      width: 400px;
+      width: 80%;
       height: 250px;
       font-size: 18px;
     }
@@ -118,11 +120,17 @@ export const cardComponentStyle = css`
     .card--team-builder,
     .card--karma,
     .card--calculator {
-      margin: 25px;
+      margin: 1.5em;
       padding: 0;
     }
     .card__icon {
-      width: 70px;
+      width: 20%;
+    }
+
+    .card-list--second-column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
 `;
